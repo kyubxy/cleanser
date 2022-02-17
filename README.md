@@ -15,3 +15,7 @@ See [this wiki page](https://github.com/peipacut/cleanser/wiki/writing-a-.cleans
 When calling the script, specify the directory in the first argument. It's usually easiest to go to the directory first and use a dot `.` to specify the current directory
 
 ``cleanser .``
+
+# Limitations
+- Probably can't get every bad word in existence (specify your own in the custom.txt or the .cleanse files)
+- Only reads on a word by word basis, bad words surrounded by other characters will not be detected (will fix this later probably)
